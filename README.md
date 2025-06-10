@@ -12,5 +12,18 @@ This is a lightweight system monitor written in modern C++17 using `ncurses`, pr
 ## 🧪 How to Run
 
 1. **Install ncurses**
-   ```bash
-   sudo apt install libncurses5-dev
+	```bash
+	sudo apt install libncurses5-dev
+	```
+
+2. **Build**
+	```bash
+	mkdir build && cd build
+	cmake ..
+	make
+	```
+	
+2. **Run**
+	```bash
+	./process_monitor
+	```
